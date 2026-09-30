@@ -1,0 +1,62 @@
+{
+  "titulo": "Presentaciones GE con Claude",
+  "autor": "Grupo Educativo",
+  "laminas": [
+    {"tipo": "portada", "titulo": "Presentaciones GE con Claude", "subtitulo": "Cómo armar una PPT institucional en minutos, sin pelear con la plantilla",
+     "notas": "Presentar el sistema: una skill que genera PowerPoint sobre la plantilla oficial y un deck equivalente en Claude Slides."},
+    {"tipo": "agenda", "titulo": "Agenda", "items": [
+      {"texto": "Por qué automatizar las presentaciones", "min": 5},
+      {"texto": "Cómo funciona el sistema", "min": 10},
+      {"texto": "Los tipos de lámina disponibles", "min": 10},
+      {"texto": "Cómo pedirle una presentación a Claude", "min": 10},
+      {"texto": "Reglas de oro y conversación", "min": 10}]},
+    {"tipo": "seccion", "fondo": "teal", "titulo": "El problema", "subtitulo": "¿Por qué automatizar las presentaciones?"},
+    {"tipo": "pregunta", "texto": "¿Cuánto tiempo se nos va ==alineando cajas== en vez de pensando el contenido?",
+     "bajada": "La plantilla v0.6 resolvió la identidad. Falta que armar la lámina sea igual de fácil."},
+    {"tipo": "seccion", "fondo": "teal", "titulo": "Cómo funciona", "subtitulo": "Del contenido al archivo, en cuatro pasos"},
+    {"tipo": "proceso", "titulo": "De tu contenido a un .pptx institucional", "pasos": [
+      {"titulo": "Contenido", "texto": "Entregas bases técnicas, un informe, apuntes o solo la idea central."},
+      {"titulo": "Guion", "texto": "Claude propone la estructura y el tipo de cada lámina. Tú lo revisas."},
+      {"titulo": "Generación", "texto": "La skill arma el .pptx sobre la Plantilla GE v0.6, con sus layouts."},
+      {"titulo": "Ajuste", "texto": "Abres en PowerPoint, afinas detalles y compartes."}]},
+    {"tipo": "dos_columnas", "titulo": "Dos caminos, una misma identidad",
+     "izquierda": {"subtitulo": "Skill presentacion-ge", "color": "teal", "puntos": [
+        "PowerPoint nativo con los layouts oficiales", "Ideal para clientes, licitaciones y archivos que circulan", "Se edita como cualquier PPT del equipo"]},
+     "derecha": {"subtitulo": "Claude Slides", "color": "magenta", "puntos": [
+        "Deck en el navegador con la identidad GE", "Edición en vivo, comentarios y link para compartir", "Se descarga como .pptx o PDF"]}},
+    {"tipo": "seccion", "fondo": "blanco", "titulo": "Tipos de lámina", "subtitulo": "Trece piezas para armar cualquier presentación"},
+    {"tipo": "tarjetas", "titulo": "El repertorio", "numerar": true, "tarjetas": [
+      {"titulo": "Portada y secciones", "texto": "Layouts oficiales con fotos, fondo blanco o teal."},
+      {"titulo": "Contenido", "texto": "Viñetas o dos columnas, con marcador de página."},
+      {"titulo": "Tarjetas", "texto": "De 2 a 8 ideas paralelas, con número y color."},
+      {"titulo": "Cifras", "texto": "De 2 a 4 números grandes con su etiqueta."},
+      {"titulo": "Proceso y agenda", "texto": "Etapas numeradas y tiempos de la sesión."},
+      {"titulo": "Tabla, cita e imagen", "texto": "Datos, voces textuales y preguntas de impacto."}]},
+    {"tipo": "cifras", "titulo": "La base del sistema", "cifras": [
+      {"valor": "12", "etiqueta": "layouts oficiales", "detalle": "de la Plantilla GE v0.6"},
+      {"valor": "13", "etiqueta": "tipos de lámina", "detalle": "listos para usar"},
+      {"valor": "4", "etiqueta": "colores primarios", "detalle": "del Brandbook 2026"}],
+     "nota": "Tipografía única: Red Hat Display, incrustada en la plantilla."},
+    {"tipo": "tabla", "titulo": "¿Qué lámina uso?", "anchos": [3, 2, 4],
+     "encabezados": ["Necesito…", "Tipo", "Ejemplo"],
+     "filas": [
+       ["Abrir un bloque temático", "seccion", "“El programa”"],
+       ["Explicar 3 a 6 ideas", "contenido", "Objetivos específicos"],
+       ["Comparar dos cosas", "dos_columnas", "Ruta pedagógica vs. administrativa"],
+       ["Mostrar componentes paralelos", "tarjetas", "Frentes de trabajo digital"],
+       ["Destacar resultados", "cifras", "Satisfacción de participantes"],
+       ["Mostrar etapas", "proceso", "Línea de tiempo del proyecto"],
+       ["Provocar la conversación", "pregunta", "¿Qué entendemos por capacidades?"]]},
+    {"tipo": "cita", "titulo": "Cómo pedirla",
+     "texto": "Usa la skill presentacion-ge para armar una PPT de 10 láminas para la reunión de inicio con el SLEP [nombre], a partir de las bases técnicas adjuntas. Audiencia: equipo directivo.",
+     "fuente": "Ejemplo de instrucción a Claude"},
+    {"tipo": "contenido", "titulo": "Reglas de oro", "puntos": [
+      "**Una idea por lámina**: si no cabe, se divide; nada se achica",
+      "**Máximo 6 viñetas**; si son ideas paralelas, mejor tarjetas",
+      "**Títulos cortos** y con la misma gramática en todo el deck",
+      "**Cifras y citas con fuente** en formato APA",
+      "**No inventar datos**: lo que falte queda como [__] para completar",
+      "**Revisar los avisos de densidad** antes de enviar"]},
+    {"tipo": "cierre", "fondo": "teal", "texto": "¿Dudas o mejoras? Escríbele a Marko Bremer por Teams"}
+  ]
+}

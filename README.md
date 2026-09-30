@@ -36,3 +36,4 @@ export MOODLE_TOKEN="tu_token_aqui"
 | Skill | Descripción |
 |---|---|
 | `moodle-reportes` | Genera reportes y visualizaciones de avance desde Moodle |
+| `presentacion-ge` | Genera presentaciones PowerPoint sobre la Plantilla GE v0.6 (y su variante en Claude Slides) siguiendo el Design System GE. Requiere `python-pptx`. |
